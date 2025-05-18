@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans',sans-serif;
+}
+body {
+    height: 100vh;
+    background-image: url(./ilustracao-ceu-noturno-anime.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Relógio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:200px;
+    width: 550px;
+    background:transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px black;
+}
+.Relógio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction:column;
+     align-items: center;
+     justify-content: center;
+     font-size: 10px;
+     color: aqua;
+     background: black;
+     box-shadow: 5px 5px 15px blue ;
+     border-radius: 7px;
+     letter-spacing: 3px;
+}
+.Relógio span {
+    font-weight: bold;
+    font-size:30px;
+}
+
+.Relógio span.tempo {
+    font-size: 20px;
+}
